@@ -44,7 +44,7 @@ def download_models(model_folder_ids):
 # Initialize Streamlit with custom settings
 def init_streamlit():
     st.set_page_config(
-        page_title="VerifAI: Where AI Meets Authentication",
+        page_title="VerifAI",
         page_icon=os.path.join("images", "Logo.png"),
         layout="wide",
         initial_sidebar_state="auto"
@@ -91,7 +91,7 @@ def display_navbar():
     st.markdown("""
         <div style="text-align: center;">
             <h1 style="font-size: 2.5em; margin-bottom: 0.1em;">VerifAI: Where AI Meets Authentication</h1>
-            <h3 style="font-weight: normal; color: gray; margin-top: -0.8em; margin-bottom: 0.7em;">Spot fakes and trust with confidence—powered by AI algorithms.</h3>
+            <h3 style="font-weight: normal; color: gray; margin-top: -0.8em; margin-bottom: 0.7em;">Spot fakes and trust with confidence—powered by AI algorithms</h3>
         </div>
     """, unsafe_allow_html=True)
 
