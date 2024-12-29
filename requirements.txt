@@ -1,0 +1,12 @@
+streamlit
+gdown
+Pillow
+librosa
+numpy
+matplotlib
+tensorflow
+soundfile
+torch
+transformers
+nltk
+scikit-learn
